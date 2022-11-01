@@ -14,10 +14,10 @@ upstream_package_name: aws-c-common
 downstream_package_name: aws-c-common
 
 jobs:
-  - job: copr_build
-    trigger: pull_request
-    targets:
-      - fedora-all
+#  - job: copr_build
+#    trigger: pull_request
+#    targets:
+#      - fedora-all
   - job: copr_build
     trigger: commit
     branch: stable
