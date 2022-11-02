@@ -23,3 +23,6 @@ jobs:
     branch: main
     targets:
       - fedora-all
+    project: packit-aws-playground
+    list_on_homepage: True
+    preserve_project: True
