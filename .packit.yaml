@@ -18,6 +18,8 @@ jobs:
     trigger: pull_request
     targets:
       - fedora-all
+    additional_repos:
+     - "copr://packit/packit-aws-playground"
   - job: copr_build
     trigger: commit
     branch: main
